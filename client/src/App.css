@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+  transition: 0.5s all ease;
+}
