@@ -23,11 +23,11 @@ const Navbar = () => {
 
   return (
     <div
-      className={` flex items-center ${
+      className={` flex items-center px-[6%] ${
         active ? "bg-white text-black" : "bg-[#013914] text-white"
       }   flex-col sticky top-0 navbar`}
     >
-      <div className=" w-[1400px] flex justify-between py-[20px]">
+      <div className=" w-[100%] flex justify-between py-[20px]">
         <div className=" text-[34px] font-bold">
           {/* <Link to={"/"}> */}
           <span>fiverr</span>
@@ -54,7 +54,7 @@ const Navbar = () => {
             >
               <img
                 className=" w-[32px] h-[32px] rounded-full object-cover"
-                src="https://cdns.klimg.com/mav-prod-resized/480x/ori/newsCover/2023/12/8/1702015080687-2o503.jpeg"
+                src="https://external-preview.redd.it/au1qG7mkHgDHoSk_I3kjZhNanbU3E8gsjfc2hqS5Iuk.jpg?width=640&crop=smart&auto=webp&s=2a759f78528adfa721be681517ea942a91a4901f"
                 alt=""
               />
               <span>{currentUser?.username}</span>
